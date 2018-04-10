@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>商品一覽</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- MetisMenu CSS -->
+    <link href="../vendor/metisMenu/metisMenu.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="../vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">SB Admin v2.0</a>
+            </div>
+            <!-- /.navbar-header -->
+
+            <ul class="nav navbar-top-links navbar-right">
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-envelope fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-messages">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <strong>John Smith</strong>
+                                    <span class="pull-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>Read All Messages</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-messages -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-tasks fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-tasks">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 1</strong>
+                                        <span class="pull-right text-muted">40% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 2</strong>
+                                        <span class="pull-right text-muted">20% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 3</strong>
+                                        <span class="pull-right text-muted">60% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <p>
+                                        <strong>Task 4</strong>
+                                        <span class="pull-right text-muted">80% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete (danger)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Tasks</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-tasks -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-bell fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-alerts">
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-comment fa-fw"></i> New Comment
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-twitter fa-fw"></i> 3 New Followers
+                                    <span class="pull-right text-muted small">12 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-envelope fa-fw"></i> Message Sent
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-tasks fa-fw"></i> New Task
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a href="#">
+                                <div>
+                                    <i class="fa fa-upload fa-fw"></i> Server Rebooted
+                                    <span class="pull-right text-muted small">4 minutes ago</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="divider"></li>
+                        <li>
+                            <a class="text-center" href="#">
+                                <strong>See All Alerts</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-alerts -->
+                </li>
+                <!-- /.dropdown -->
+                <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                        <i class="fa fa-user fa-fw"></i> <i class="fa fa-caret-down"></i>
+                    </a>
+                    <ul class="dropdown-menu dropdown-user">
+                        <li><a href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
+                        </li>
+                        <li class="divider"></li>
+                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        </li>
+                    </ul>
+                    <!-- /.dropdown-user -->
+                </li>
+                <!-- /.dropdown -->
+            </ul>
+            <!-- /.navbar-top-links -->
+
+            <div class="navbar-default sidebar" role="navigation">
+                    <div class="sidebar-nav navbar-collapse">
+                        <ul class="nav" id="side-menu">   
+                            <li>
+                                <a href="#"><i class="fa fa-child fa-fw"></i> 投信投顧專區<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="hot_manager.html" class="text-muted"> 熱門投顧</a>
+                                    </li>
+                                    <li>
+                                        <a href="manager_achievement.html" class="text-muted"> 投顧績效一覽</a>
+                                    </li>
+                                    <li>
+                                        <a href="my manager.html" class="text-muted"> 我的投顧</a>
+                                    </li>
+                                    <li>
+                                        <a href="investment flow .html" class="text-muted"> 投資動向</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-search-plus fa-fw"></i> 基金投資查詢<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="#" class="text-muted"> 投資總覽及資產配置</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 投資概要及明細</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 已贖回及轉換概要</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 查詢投資交易</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-retweet fa-fw"></i> 基金投資交易<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="#" class="text-muted"> 申購</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 定期(不)定額申購</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 定期(不)定額異動</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 贖回</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 轉換</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 轉申購</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 轉取消預約投資交易</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 單筆申購手續費試算</a>
+                                    </li>
+                                </ul>
+                                <!-- /.nav-second-level -->
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-dashboard fa-fw"></i> 資產查詢<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="#" class="text-muted"> 資產總覽</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 交易紀錄查詢</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 已贖紀錄查詢</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 贖回</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-warning fa-fw"></i> 警示設定<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="#" class="text-muted">已投資標的的損益點設定</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 觀察中得標的警訊設定</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 已贖紀錄查詢</a>
+                                    </li> 
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa fa-file-text-o fa-fw"></i> 約定書線上簽署<span class="fa arrow"></span></a>
+                                <ul class="nav nav-second-level">
+                                    <li>
+                                        <a href="#" class="text-muted"> 風險預告書</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 信託總約定書</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 信託特約事項</a>
+                                    </li>
+                                    <li>
+                                        <a href="#" class="text-muted"> 同意書</a>
+                                    </li>
+                                    
+                                </ul>
+                            </li>
+    
+                        </ul>
+                    </div>
+                    <!-- /.sidebar-collapse -->
+                </div>
+            <!-- /.navbar-static-side -->
+        </nav>
+
+        <div id="page-wrapper">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">商品一覽</h1>
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            全球新興市場債券
+                        </div>
+                        <div class="panel-body">
+                            <p>富富基金 - 新興市場債券基金 A股累計歐元
+                                </p>
+                        </div>
+                        <div class=" panel-footer" >
+                            <a href="基金介紹.html">
+                                <div align="right">
+                                        詳情 <p class="fa fa-arrow-right"> </p>
+                                    </div>
+                                </a>
+                                </div>
+                            
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                                歐非中東股票
+                        </div>
+                        <div class="panel-body">
+                            <p>新興歐非中東基金 A股累計美元</p>
+                        </div>
+                        <div class="panel-footer">
+                            <div align="right">
+                                詳情 <p class="fa fa-arrow-right"> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                                全球新興市場公司債券
+                        </div>
+                        <div class="panel-body">
+                            <p>富富新興市場 - 潛力企業債券基金A股累積型 (美元)本季精選基金
+                                </p>
+                        </div>
+                        <div class="panel-footer">
+                                <div align="right">
+                                        詳情 <p class="fa fa-arrow-right"> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-info">
+                        <div class="panel-heading">
+                                全球大型均衡型股票
+                        </div>
+                        <div class="panel-body">
+                            <p>富達基金 - 世界基金 Y股累計美元</p>
+                        </div>
+                        <div class="panel-footer">
+                                <div align="right">
+                                        詳情 <p class="fa fa-arrow-right"> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                                目標期限 2016-2020
+                        </div>
+                        <div class="panel-body">
+                            <p>富富基金 - 富達目標TM基金 2020</p>
+                        </div>
+                        <div class="panel-footer">
+                                <div align="right">
+                                        詳情 <p class="fa fa-arrow-right"> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+                <div class="col-lg-4">
+                    <div class="panel panel-red">
+                        <div class="panel-heading">
+                            全球股票 - 貨幣對沖
+                        </div>
+                        <div class="panel-body">
+                            <p>富富基金 - 全球入息基金 A股H月配息澳幣避險
+                                    本基金之配息來源可能為本金</p>
+                        </div>
+                        <div class="panel-footer">
+                                <div align="right">
+                                        詳情 <p class="fa fa-arrow-right"> </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /.col-lg-4 -->
+            </div>
+            <!-- /.row -->
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            日本股票 - 貨幣對沖
+                        </div>
+                        <div class="panel-body">
+                            <p>富富基金 - 日本基金 A股累計美元避險</p>
+                        </div>
+                        <div class="panel-footer">
+                                <div align="right">
+                                        詳情 <p class="fa fa-arrow-right"> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            產業股票 - 健康護理
+                        </div>
+                        <div class="panel-body">
+                            <p>富富基金 - 全球健康護理基金</p>
+                        </div>
+                        <div class="panel-footer">
+                            <div align="right">
+                                詳情 <p class="fa fa-arrow-right"> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+                <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                                產業股票 - 工業物料
+                        </div>
+                        <div class="panel-body">
+                            <p>富富基金 - 全球工業基金</p>
+                        </div>
+                        <div class="panel-footer">
+                            <div align="right">
+                                        詳情 <p class="fa fa-arrow-right"> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.col-lg-4 -->
+                </div>
+            </div>
+            <!-- /.row -->
+
+            <!-- /.row -->
+           
+            <!-- /.row -->
+         
+            <!-- /.row -->
+
+            <!-- /.row -->
+        </div>
+        <!-- /#page-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+    <!-- jQuery -->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="../vendor/metisMenu/metisMenu.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="../dist/js/sb-admin-2.js"></script>
+
+</body>
+
+</html>
